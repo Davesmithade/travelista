@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&display=swap");
+
+* {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+.left {
+  background-image: url("../assets/hero.svg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .right{
+    background-image: url('../assets/loginbg.svg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.label {
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  padding: 5px 10px;
+}
+
+.inputBox .label {
+  transition: all cubic-bezier(0.23, 1, 0.320, 1) 0.34s;
+}
+.inputBox:focus-within .label {
+  color: #60a5fa;
+  background: #fff;
+}
+.inputBox:not(:focus-within) .label {
+  color: gray;
+  top: 15px;
+  left: 50px;
+  background: transparent;
+}
+
+.inputBox input {
+transition: all .34s;
+}
+
+.emlINP input {
+    margin-left: 66px;
+}
+
+.pwdINP input {
+    margin-left: 80px;
+}
+
+.inputBox input:focus {
+    margin-left: 0;
+}
