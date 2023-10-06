@@ -14,8 +14,8 @@ const Login = () => {
   return (
     <>
       <div className="bg-black min-h-[300px] h-[100vh] w-[100vw]">
-        <div className="flex bg-white overflow-hidden rounded-[23px] h-[100%] w-[100%]">
-          <div className="left h-[100%] flex-1">
+        <div className="flex bg-white overflow-hidden lg:rounded-[23px] h-[100%] w-[100%]">
+          <div className="left h-[100%] flex-1 hidden lg:flex">
             <div></div>
           </div>
           <div className="right relative h-[100%] flex-1 bg-white overflow-y-scroll">
